@@ -1,0 +1,11 @@
+{
+    "name": "java_bazel_starter",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy",
+    "features": {
+        "ghcr.io/devcontainers-community/features/bazel:1": {},
+        "ghcr.io/devcontainers-contrib/features/apt-get-packages:1": {
+            "packages": "vim"
+        },
+        "ghcr.io/devcontainers/features/java:1": {}
+    }
+}
